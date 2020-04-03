@@ -1,0 +1,66 @@
+/* Navigation bar */
+.topnav {
+  background-color: #333333;
+  overflow: hidden;
+  margin-left: 0px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+/* LOGO Part */
+.top_title {
+  padding: 20px 0px 20px 10px;
+}
+
+.top_title a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #008B8B;
+}
+
+/* Heading */
+h2.title {
+  text-shadow: 2px 2px #DDDDDD;
+}
+
+p.main_text {
+  color: #222222;
+}
+
+#introduction {
+  margin: auto;
+  width: 98%;}
+
+div.intro_unit {
+  margin-bottom: 100px;
+}
+
+a.icon {
+  text-decoration: none;
+  color: black;
+}
+
+#work {
+  margin: auto;
+  width: 98%;}
+
+#work_unit {
+  height :300;
+  border-width: 3;}
+
+#body_part {
+  margin-left: 10px;
+  width: 100%;
+}
