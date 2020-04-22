@@ -64,3 +64,8 @@ a.icon {
   margin-left: 10px;
   width: 100%;
 }
+
+.wrapper-main {
+  width: 100%;
+  overflow-x: hidden;
+}
