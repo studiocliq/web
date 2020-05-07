@@ -1,0 +1,34 @@
+div.top_title {
+  padding: 20px 0px 20px 10px;
+}
+
+div.top_title a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #008B8B;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+div.wrp-main {
+  margin: 20px 0px 0px 30px;
+  width: 400px;
+}
+
+div.wrp-input .input-user{
+  height: 35px;
+  font-size: 15px;
+  border: 1px solid gray;
+  margin-bottom: 6px;
+}
+
+div.wrp-input button {
+  height: 35px;
+  margin-bottom: 6px;
+}
+
+.img-search {
+  width: 300px;
+}
