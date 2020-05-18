@@ -1,33 +1,44 @@
 /* Navigation bar */
 .topnav {
-  background-color: #333333;
   overflow: hidden;
-  margin-left: 0px;
-}
+  height: 40px;
+  padding-top: 20px;
+  margin-bottom: 50px;
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #dddddd;
-  color: black;
+  border-bottom: solid 1px #DDDDDD;
+  box-shadow: 2px 2px 2px #AAAAAA;
 }
 
 /* LOGO Part */
 .top_title {
-  padding: 20px 0px 20px 10px;
+  display: inline;
+  padding: 20px 0px 20px 20px;
 }
 
 .top_title a {
   text-decoration: none;
-  font-size: 30px;
-  color: #008B8B;
+  color: black;
+}
+
+ul {
+  display: inline;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 7px 10px 7px 10px;
+}
+
+ul a:hover {
+  color:  #F76C6C;
 }
 
 /* Heading */
