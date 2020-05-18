@@ -1,10 +1,16 @@
 /* Navigation bar */
+body {
+  background-color: #EEEEDC;
+}
+
 .topnav {
   overflow: hidden;
   height: 40px;
   padding-top: 20px;
   margin-bottom: 50px;
+  background-color: white;
 
+  border-top: 0px;
   border-bottom: solid 1px #DDDDDD;
   box-shadow: 2px 2px 2px #AAAAAA;
 }
@@ -41,21 +47,35 @@ ul a:hover {
   color:  #F76C6C;
 }
 
-/* Heading */
-h2.title {
-  text-shadow: 2px 2px #DDDDDD;
-}
-
 p.main_text {
   color: #222222;
 }
 
-#introduction {
+#profile {
   margin: auto;
-  width: 98%;}
+  width: 22%;
+  display: inline-block;
+  background-color: white;
 
-div.intro_unit {
-  margin-bottom: 100px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+
+  border-radius: 5%;
+
+  box-shadow: 1px 1px 1px #AAAAAA;
+}
+
+#img-profile {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+#wrp-sns {
+  padding-bottom: 20px;
 }
 
 a.icon {
