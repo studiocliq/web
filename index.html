@@ -22,19 +22,22 @@
   </head>
 
   <body>
-    <div class="wrapper-main">
-      <div class="topnav">
-        <div class="top_title">
-          <a href="http://cliq.studio/">CliQ</a>.studio
+    <div id="wrap">
+      <div id="header">
+        <div class="gnb">
+          <div class="top_title">
+            <a href="http://cliq.studio/">CliQ</a>.studio
+          </div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">DEV</a></li>
+            <li><a href="#">Works</a></li>
+          </ul>
         </div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">DEV</a></li>
-          <li><a href="#">Works</a></li>
-        </ul>
       </div>
-      <div id="body_part">
+      
+      <div id="container">
         <div id="profile">
           <img src="./src/jiwon_selfie.jpg" alt="celfie" id="img-profile">
           <div class="intro_unit">
@@ -44,6 +47,7 @@
               parkgone23@gmail.com
             </p>
           </div>
+
           <div id="wrp-sns">
             <a class="icon" href="https://www.instagram.com/parkgone_clickcliq/?hl=ko">
               <div class="wrp-sns-icon">
@@ -63,16 +67,16 @@
           </div>
         </div>
 
-        <div id="wrp_main">
+        <div id="content">
           <h3 class="headings">Recent Post</h3>
         </div>
 
-        <div id="wrp-right">
-          <div id="work">
+        <div class="aside">
+          <div class="section">
             <h2 class="headings">Works</h2>
             <table>
               <tr>
-                <div id="work_unit">
+                <div class="video_music">
                   <iframe width="240" height="135" src="https://www.youtube.com/embed/lzlzEfEtxSc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <p style="color:#222222">
                     <font size="2"> CliQ - Car the garden(feat.SH Kim)</font>
@@ -81,7 +85,7 @@
               </tr>
 
               <tr>
-                <div id="work_unit">
+                <div class="video_music">
                   <iframe width="240" height="135" src="https://www.youtube.com/embed/PVXJRR33pCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   <p style="color:#222222">
                     <font size="2"> CliQ - Monte Carlo(feat.Hufnam)</font>
@@ -92,6 +96,11 @@
           </div>
         </div>
       </div>
+
+      <footer>
+        <p>Copyright © 2020 studio cliq. All rights reserved.</p>
+        <address>parkgone23@gmail.com</address>
+      </footer>
     </div>
   </body>
 </html>

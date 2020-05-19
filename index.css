@@ -3,15 +3,14 @@ body {
   font-family: 'Nanum Gothic Coding', monospace;
 }
 
-.wrapper-main {
+#wrap {
   width: 100%;
   overflow-x: hidden;
   background-color: #EEEEDC;
-
 }
 
-/* Navigation bar */
-.topnav {
+/* global navigation bar */
+.gnb {
   overflow: hidden;
   height: 40px;
   padding-top: 20px;
@@ -62,6 +61,7 @@ p.main_text {
 #profile {
   float: left;
   width: 22%;
+  
   background-color: white;
 
   text-align: center;
@@ -111,7 +111,7 @@ i.fa {
   text-decoration: none;
 }
 
-#wrp_main {
+#content {
   float: left;
   width: 50%;
   height: 1000px;
@@ -128,7 +128,7 @@ i.fa {
   box-shadow: 1px 1px 1px #AAAAAA;
 }
 
-#wrp-right {
+.aside {
   float: right;
 
   width: 22%;
@@ -146,15 +146,16 @@ i.fa {
   box-shadow: 1px 1px 1px #AAAAAA;
 }
 
-#work {
+.section {
   margin: auto;
-  width: 98%;}
+  width: 98%;
+}
 
-#work_unit {
+.vidio_music {
   border-width: 3;
 }
 
-#body_part {
+#container {
   width: 100%;
 }
 
