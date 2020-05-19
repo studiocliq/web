@@ -1,8 +1,16 @@
-/* Navigation bar */
 body {
-  background-color: #EEEEDC;
+  margin: 0px;
+  font-family: 'Nanum Gothic Coding', monospace;
 }
 
+.wrapper-main {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #EEEEDC;
+
+}
+
+/* Navigation bar */
 .topnav {
   overflow: hidden;
   height: 40px;
@@ -52,9 +60,8 @@ p.main_text {
 }
 
 #profile {
-  margin: auto;
+  float: left;
   width: 22%;
-  display: inline-block;
   background-color: white;
 
   text-align: center;
@@ -63,7 +70,6 @@ p.main_text {
   margin-left: 20px;
 
   border-radius: 5%;
-
   box-shadow: 1px 1px 1px #AAAAAA;
 }
 
@@ -75,12 +81,69 @@ p.main_text {
 }
 
 #wrp-sns {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-a.icon {
+i.fa {
+  font-size: 30px;
+}
+
+.wrp-sns-icon {
   text-decoration: none;
   color: black;
+
+  width: 22%;
+  height: 30px;
+  display: inline-block;
+
+  border-radius: 10%;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wrp-sns-icon:hover {
+  background-color: #F76C6C;
+  color: white;
+}
+
+.icon {
+  text-decoration: none;
+}
+
+#wrp_main {
+  float: left;
+  width: 50%;
+  height: 1000px;
+
+  background-color: white;
+
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+
+  border-radius: 1%;
+
+  box-shadow: 1px 1px 1px #AAAAAA;
+}
+
+#wrp-right {
+  float: right;
+
+  width: 22%;
+  height: 1000px;
+
+  background-color: white;
+
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+
+  border-radius: 1%;
+
+  box-shadow: 1px 1px 1px #AAAAAA;
 }
 
 #work {
@@ -88,15 +151,18 @@ a.icon {
   width: 98%;}
 
 #work_unit {
-  height :300;
-  border-width: 3;}
+  border-width: 3;
+}
 
 #body_part {
-  margin-left: 10px;
   width: 100%;
 }
 
-.wrapper-main {
-  width: 100%;
-  overflow-x: hidden;
+.headings {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+
+  color: #888888;
 }
+
