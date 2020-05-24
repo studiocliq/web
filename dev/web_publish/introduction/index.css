@@ -1,0 +1,153 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+#wrap {
+  background-color: #EEEEEE;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* global navigation bar */
+.gnb {
+  background-color: white;
+  border-top: 0px;
+  border-bottom: 1px solid #DDDDDD;
+  box-shadow: 2px 2px 2px #AAAAAA;
+  height: auto;
+  margin-bottom: 50px;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+
+#content {
+  background-color: white;
+  border-radius: 0.5%;
+  box-shadow: 1px 1px 1px #AAAAAA;
+  height: 1000px;
+  padding: 20px 0;
+  width: 65%;
+}
+
+.aside {
+  background-color: white;
+  border-radius: 1%;
+  box-shadow: 1px 1px 1px #AAAAAA;
+  height: 1000px;
+  margin: 0 20px;
+  padding: 20px 0;
+  text-align: center;
+  width: 30%;
+}
+
+.section {
+  margin: auto;
+  width: 85%;
+}
+
+/* LOGO Part */
+.top_title {
+  display: inline;
+  padding: 20px 20px;
+}
+
+.top_title a {
+  color: black;
+}
+
+.gnb-idx {
+  display: inline;
+  list-style-type: none;
+}
+
+.gnb-idx li {
+  display: inline-block;
+}
+
+.gnb-idx a {
+  color: black;
+  font-size: 15px;
+  padding: 7px 10px;
+  text-align: center;
+}
+
+.gnb-idx a:hover {
+  color:  #F76C6C;
+}
+
+/* footer */
+footer {
+  display: block;
+  background-color: white;
+}
+
+.box-footer {
+  padding: 20px 15px;
+}
+
+.txt-service_name {
+  margin: 5px 0;
+}
+
+.txt-service_name a {
+  color: #F76C6C;;
+  font-size: 15px;
+}
+
+.list-sitemap {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.list-sitemap li {
+  color: black;
+  font-size: 10px;
+  padding-right: 10px;
+}
+
+.txt-license {
+  font-size: 10px;
+}
+
+/* styles for etc elements */
+.line-break {
+  border-width: 0.5px;
+}
+
+.txt-par_heading {
+  color: black;
+  margin-top: 20px;
+  text-align: left;
+}
+
+h1.txt-par_heading {
+  font-size: 30px;
+  color: #F76C6C;
+}
+
+h2.txt-par_heading {
+  font-size: 20px;
+}
+
+h5.txt-par_heading {
+  color: #333333;
+}
