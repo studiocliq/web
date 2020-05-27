@@ -3,14 +3,6 @@ body {
   margin: 0px;
 }
 
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: circle;
-}
-
 #wrap {
   background-color: #EEEEEE;
   overflow-x: hidden;
@@ -40,7 +32,6 @@ ul {
   background-color: white;
   border-radius: 0.5%;
   box-shadow: 1px 1px 1px #AAAAAA;
-  height: 1000px;
   padding: 20px 0;
   width: 65%;
 }
@@ -58,6 +49,7 @@ ul {
 
 .section {
   margin: auto;
+  margin-bottom: 40px;
   width: 85%;
 }
 
@@ -126,6 +118,7 @@ footer {
 
 .txt-license {
   font-size: 10px;
+  text-indent: 0;
 }
 
 /* styles for etc elements */
@@ -148,6 +141,27 @@ h2.txt-par_heading {
   font-size: 20px;
 }
 
-h5.txt-par_heading {
+.txt-date {
+ text-indent: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+p {
   color: #333333;
+  text-indent: 10px;
+}
+
+li {
+  color: #333333;
+}
+
+.link-url {
+  color: #F76C6C;
 }
