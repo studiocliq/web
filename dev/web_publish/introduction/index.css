@@ -152,6 +152,10 @@ ul {
   list-style-type: circle;
 }
 
+.fix-date{
+  padding-left: 20;
+}
+
 p {
   color: #333333;
   text-indent: 10px;
