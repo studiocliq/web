@@ -38,12 +38,10 @@ body {
 
 .aside {
   background-color: white;
-  border-radius: 1%;
+  border-radius: 0.5%;
   box-shadow: 1px 1px 1px #AAAAAA;
-  height: 1000px;
   margin: 0 20px;
   padding: 20px 0;
-  text-align: center;
   width: 30%;
 }
 
@@ -139,6 +137,7 @@ h1.txt-par_heading {
 
 h2.txt-par_heading {
   font-size: 20px;
+  color: #333333;
 }
 
 .txt-date {
