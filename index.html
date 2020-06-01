@@ -15,8 +15,7 @@
     <meta name="description" content="studio cliq, music, programming, ai">
     <title>Studio CliQ - Clarifying Question</title>
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/af1e4e590f.css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
   </head>
@@ -24,73 +23,68 @@
   <body>
     <div id="wrap">
       <div id="header">
-        <div class="gnb">
-          <div class="top_title">
-            <a href="/">CliQ</a>.studio
-          </div>
-          <ul class="gnb-idx">
-            <li><a href="/">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">DEV</a></li>
-            <li><a href="#">Works</a></li>
-          </ul>
+        <div class="top_title">
+          <a href="/" class="txt-black">CliQ.studio</a>
         </div>
+        <ul id="gnb">
+          <li><a href="/" class="txt-black txt-small">Home</a></li>
+          <li><a href="/about/" class='txt-black txt-small'>About</a></li>
+          <li><a href="#" class='txt-black txt-small'>DEV</a></li>
+          <li><a href="#" class='txt-black txt-small'>Works</a></li>
+        </ul>
       </div>
       
       <div id="container">
-        <div id="profile">
-          <img src="./src/jiwon_selfie.jpg" alt="celfie" id="img-profile">
-          <h3 class="title">CliQ</h3>
-          <h4>Clarifying Question</h4>
-          <p>parkgone23@gmail.com</p>
+        <div class="aside">
+          <div id="profile" class="section card">
+            <img src="/src/img/jiwon_selfie.jpg" alt="celfie" id="img-profile">
+            <h1 class="txt-black txt-medium">CliQ</h1>
+            <p class="txt-gray">Clarifying Question</p>
+            <address>parkgone23@gmail.com</address>
 
-          <a href="https://www.instagram.com/parkgone_clickcliq/?hl=ko">
-            <div class="box_sns">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
+            <div class="wrap-sns">
+              <a href="https://www.instagram.com/parkgone_clickcliq/?hl=ko">
+                <div class="box_sns">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+              </a>
+              <a href="https://www.linkedin.com/in/cliq/">
+                <div class="box_sns">
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </div>
+              </a>
+              <a href="https://github.com/studiocliq">
+                <div class="box_sns">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+              </a>
             </div>
-          </a>
-          <a href="https://www.linkedin.com/in/cliq/">
-            <div class="box_sns">
-              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-            </div>
-          </a>
-          <a href="https://github.com/studiocliq">
-            <div class="box_sns">
-              <i class="fa fa-github" aria-hidden="true"></i>
-            </div>
-          </a>
+          </div>
         </div>
 
         <div id="content">
           <a href="/dev/web_publish/introduction/">
-          <div class="card">
-            <h2>Introduction</h2>
-            <h5>2020-05-23 /DEV/WEB PUBLISH</h5>
-          </div>
+            <div class="card recent_post">
+              <div class="box-img-title">
+                <img src="./dev/web_publish/introduction/src/one-way-street.jpg" alt="Introduction" class="img-title">
+              </div>
+              <h2 class="txt-heading txt-pink">[웹 퍼블리싱] Introduction</h2>
+              <p class="txt-date txt-small">2020-05-23 /DEV/WEB PUBLISH</p>
+            </div>
           </a>
         </div>
 
         <div class="aside">
-          <div class="section">
-            <h2 class="txt-par_heading">Works</h2>
+          <div class="card">
             <table>
-              <tr>
-                <div class="video_music">
+                <tr>
                   <iframe width="240" height="135" src="https://www.youtube.com/embed/lzlzEfEtxSc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <p style="color:#222222">
-                    <font size="2"> CliQ - Car the garden(feat.SH Kim)</font>
-                  </p>
-                </div>
-              </tr>
-
-              <tr>
-                <div class="video_music">
+                  <p class="txt-small txt-black">CliQ - Car the garden(feat.SH Kim)</p>
+                </tr>
+                <tr>
                   <iframe width="240" height="135" src="https://www.youtube.com/embed/PVXJRR33pCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  <p style="color:#222222">
-                    <font size="2"> CliQ - Monte Carlo(feat.Hufnam)</font>
-                  </p>
-                </div>
-              </tr>
+                  <p class="txt-small txt-black">CliQ - Monte Carlo(feat.Hufnam)</p>
+                </tr>
             </table>
           </div>
         </div>
@@ -98,16 +92,16 @@
 
       <footer>
         <div class="box-footer">
-          <div class="txt-service_name">
-            <a href="/">Studio CliQ</a>
+          <div class="footer-service_name">
+            <a href="/" class="txt-pink txt-small">Studio CliQ</a>
           </div>
           <ul class="list-sitemap">
-            <a href="/"><li>HOME</li></a>
-            <a href="/about/"><li>ABOUT</li></a> 
-            <a href="/dev/"><li>DEV</li></a>
-            <a href="/works/"><li>WORKS</li></a>
+            <a href="/"><li class="txt-smaller txt-black">HOME</li></a>
+            <a href="/about/"><li class="txt-smaller txt-black">ABOUT</li></a> 
+            <a href="/dev/"><li class="txt-smaller txt-black">DEV</li></a>
+            <a href="/works/"><li class="txt-smaller txt-black">WORKS</li></a>
           </ul>
-          <p class="txt-license">COPYRIGHT STUDIO CLIQ, ALL RIGHT RESERVED</p>
+          <p class="txt-smaller">COPYRIGHT STUDIO CLIQ, ALL RIGHT RESERVED</p>
         </div>
       </footer>
     </div>
