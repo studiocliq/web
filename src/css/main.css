@@ -1,0 +1,152 @@
+/* Common Layout */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.card {
+  background-color: white;
+  border-radius: 1%;
+  box-shadow: 1px 1px 1px #AAAAAA;
+  padding: 20px 20px;
+  transition: 0.3s;
+}
+
+.recent_post:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.section {
+  margin-bottom: 10px;
+}
+
+#wrap {
+  background-color: #EEEEEE;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Header Layout */
+#header {
+  background-color: white;
+  border-top: 0px;
+  border-bottom: 1px solid #DDDDDD;
+  box-shadow: 2px 2px 2px #AAAAAA;
+  height: auto;
+  margin-bottom: 50px;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.top_title {
+  display: inline;
+  padding: 20px 20px;
+}
+
+#gnb {
+  display: inline;
+  list-style-type: none;
+}
+
+#gnb li {
+  display: inline-block;
+  padding: 7px 10px;
+  text-align: center;
+}
+
+#gnb a:hover {
+  color:  #F76C6C;
+}
+
+/* footer */
+footer {
+  display: block;
+  background-color: white;
+}
+
+.box-footer {
+  padding: 20px 15px;
+}
+
+.footer-service_name {
+  margin: 5px 0;
+}
+
+.list-sitemap {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.list-sitemap li {
+  padding-right: 10px;
+}
+
+/* Contatiner part */
+#container {
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+
+/* Text style */
+.txt-heading {
+  font-weight: 200;
+  margin-top: 0;
+  text-align: left;
+}
+
+.txt-date {
+  color: #555555;
+  margin: 0;
+  text-indent: 0;
+}
+
+.txt-gray {
+  color: gray;
+}
+
+.txt-black {
+  color: #333333;
+}
+
+.txt-pink {
+  color: #F76C6C;
+}
+
+.txt-large {
+  font-size: 25px;
+}
+
+.txt-medium {
+  font-size: 20px;
+}
+
+.txt-small {
+  font-size: 15px;
+}
+
+.txt-smaller {
+  font-size: 10px;
+}
+
+.txt-smallest {
+  font-size: 5px;
+}
+
+/* ETC element */
+.line-break {
+  border-width: 0.5px;
+}

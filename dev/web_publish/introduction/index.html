@@ -14,9 +14,8 @@
     <meta charset="utf-8" content="CliQ">
     <meta name="description" content="web publishing, introduction, using tool, html css, aws">
     <title>Studio CliQ - Clarifying Question</title>
-    <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <link rel="stylesheet" href="/src/css/post.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/af1e4e590f.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
   </head>
@@ -24,28 +23,29 @@
   <body>
     <div id="wrap">
       <div id="header">
-        <div class="gnb">
-          <div class="top_title">
-            <a href="/">CliQ</a>.studio
-          </div>
-          <ul class="gnb-idx">
-            <li><a href="/">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="/dev/web_publish/introduction/" class="txt_cur_on">DEV</a></li>
-            <li><a href="#">Works</a></li>
-          </ul>
+        <div class="top_title">
+          <a href="/" class="txt-black">CliQ.studio</a>
         </div>
+        <ul id="gnb">
+          <li><a href="/" class="txt-black txt-small">Home</a></li>
+          <li><a href="/about/" class='txt-black txt-small'>About</a></li>
+          <li><a href="#" class='txt-black txt-small'>DEV</a></li>
+          <li><a href="#" class='txt-black txt-small'>Works</a></li>
+        </ul>
       </div>
       
       <div id="container">
         <div id="content">
+          <div class="box-img-title">
+            <img src="./src/one-way-street.jpg" alt="road_start" class="img-title">
+          </div>
           <div class="section">
             <p class="txt-date">2020-05-27 /DEV/WEB PUBLISH</p>
-            <h1 class="txt-par_heading">Introduction</h1>
+            <h1 class="txt-large txt-pink">Introduction</h1>
             <hr class="line-break">
           </div>
           <div class="section">
-            <h2 class="txt-par_heading">문제가 뭐냐</h2>
+            <h2 class="txt-medium">문제가 뭐냐</h2>
             <p>
               작년 이맘쯤에 서울로 올라왔으니까 상경한 후 1년 정도 지났다. 처음 8개월은 인공지능 IT 회사에서 데이터 사이언티스트로 일했고, 이후 4개월은 창업을 위해 이것저것 뒤적거리다 보니 어느새 1년이 지났다. 앞의 8개월은 함께 일했던 분들의 도움으로 비교적 수월하게 정보를 습득할 수 있었지만, 뒤 4개월은 처음부터 끝까지 혼자 삽질을 해야했기 때문에 순탄하지만은 않았다.
             </p>
@@ -57,7 +57,7 @@
             </p>
           </div>
           <div class="section">
-            <h2 class="txt-par_heading">그땐 참 좋았지</h2>
+            <h2 class="txt-medium">그땐 참 좋았지</h2>
             <p>
               회사에 근무했던 기간을 떠올려보면, 공부하는 목표가 분명했다. 당장 내게 주어진 문제를 해결해야했고, 그 문제를 해결했을 때 눈에 보이는 결과가 명확했다. 결과물에 대한 피드백도 즉각적으로 받을 수 있었고 문제를 잘 해결했을 때 돌아오는 회사 동료분들의 칭찬과 격려가 일종의 보상으로 작용했다.
             </p>
@@ -71,19 +71,19 @@
             </ul>
           </div>
           <div class="section">
-            <h2 class="txt-par_heading">개발블로그 시작하기</h2>
+            <h2 class="txt-medium">개발블로그 시작하기</h2>
             <p>
               세가지 조건을 만족하는 여러 방안을 생각했다. 캐글 인공지능 컴페티션 참여, 사이드 프로젝트, 오픈 소스 프로젝트 참여하기, 개발블로그가 고려 대상이였다. 앞의 공부 방법들이 세가지 조건을 어느정도 만족하는 방안들이었지만, 아직 무엇을 공부할 것인가에 대해 확실히 결정되지 않았기 때문에 다양한 공부 분야에 대해 보편적으로 적용될 수 있는 공부 방법이 필요했다.
             </p>
             <p>
-              각각의 방법에 대해 설명한 글들을 참고하다가, 유튜브 채널 '태용'에서 배달의 민족 개발자분의 인터뷰 영상을 보고 개발블로그를 시작해야겠다고 결심했다. <a href="https://www.youtube.com/watch?v=V9AGvwPmnZU&t=214s" class="link-url">(태용, 지방대 개발 비전공자가 배달의 민족 리드 개발자가 되기까지)</a>
+              각각의 방법에 대해 설명한 글들을 참고하다가, 유튜브 채널 '태용'에서 배달의 민족 개발자분의 인터뷰 영상을 보고 개발블로그를 시작해야겠다고 결심했다. <a href="https://www.youtube.com/watch?v=V9AGvwPmnZU&t=214s" class="txt-pink">(태용, 지방대 개발 비전공자가 배달의 민족 리드 개발자가 되기까지)</a>
             </p>
             <p>
               1개의 포스트 단위로 이루어진 개발블로그는 단기적인 공부 목표로 충분했고, 개인적으로 무언가를 정리해두는 것을 좋아하는 나에게 '나만의 웹페이지'는 충분히 매력적인 결과물이었다. 웹페이지의 댓글이나 구글 어날리틱스를 이용한 방문자 분석 등을 이용한다면 각각의 포스트에 대해 비교적 즉각적인 피드백을 받을 수 있을 것이라고 생각했다.
             </p>
           </div>
           <div class="section">
-            <h2 class="txt-par_heading">그래서 어떻게 할래?</h2>
+            <h2 class="txt-medium">그래서 어떻게 할래?</h2>
             <p>
               그래서 개발 블로그를 시작하자고 마음은 먹었지만, 어떻게 시작할지, 어떤 내용을 적어야할지에 대해서는 여전히 고민이다. 알고 있는 지식도 그렇게 많지 않아서 간단한 HTML, CSS, Javascript 정도만 할 줄 아는 나에게 웹페이지 퍼블리싱은 여전히 너무나 어려워보였다.
             </p>
@@ -92,7 +92,7 @@
             </p>
           </div>
           <div class="section">
-            <h2 class="txt-par_heading">짠 지금 보고계신 허접한 결과가 바로 그것입니다.</h2>
+            <h2 class="txt-medium">짠 지금 보고계신 허접한 결과가 바로 그것입니다.</h2>
             <p>
               일단 어느정도 페이지를 만들자 마자 바로 첫 포스트를 쓰는 거라, 지금은 많이 부족해보이지만 포스트를 이어가면서 기능을 추가하면 그럴듯해지지 않을까 하는게 내 작은 바램이다. 제발 이번에는 꾸준히좀 해보자...
             </p>
@@ -101,8 +101,7 @@
 
         <div class="aside">
           <div class="section">
-            <h2 class="txt-par_heading">History</h2>
-            <hr>
+            <h2 class="txt-medium">History</h2>
             <ul class="fix-date">
               <li>2020-05-23: 최초 업로드</li>
               <li>2020-05-27: 문단 추가 후 양식 수정</li>
@@ -116,16 +115,16 @@
 
       <footer>
         <div class="box-footer">
-          <div class="txt-service_name">
-            <a href="/">Studio CliQ</a>
+          <div class="footer-service_name">
+            <a href="/" class="txt-pink txt-small">Studio CliQ</a>
           </div>
           <ul class="list-sitemap">
-            <a href="/"><li>HOME</li></a>
-            <a href="/about/"><li>ABOUT</li></a> 
-            <a href="/dev/"><li>DEV</li></a>
-            <a href="/works/"><li>WORKS</li></a>
+            <a href="/"><li class="txt-smaller txt-black">HOME</li></a>
+            <a href="/about/"><li class="txt-smaller txt-black">ABOUT</li></a> 
+            <a href="/dev/"><li class="txt-smaller txt-black">DEV</li></a>
+            <a href="/works/"><li class="txt-smaller txt-black">WORKS</li></a>
           </ul>
-          <p class="txt-license">COPYRIGHT STUDIO CLIQ, ALL RIGHT RESERVED</p>
+          <p class="txt-smaller">COPYRIGHT STUDIO CLIQ, ALL RIGHT RESERVED</p>
         </div>
       </footer>
     </div>
