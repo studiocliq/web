@@ -1,17 +1,11 @@
 #content {
-  background-color: white;
-  border-radius: 0.5%;
-  box-shadow: 1px 1px 1px #AAAAAA;
+  float: left;
   padding: 0;
-  width: 65%;
+  width: 68%;
 }
 
 .aside {
-  background-color: white;
-  border-radius: 0.5%;
-  box-shadow: 1px 1px 1px #AAAAAA;
-  margin: 0 20px;
-  padding: 20px 0;
+  float: right;
   width: 30%;
 }
 
@@ -24,15 +18,15 @@
 }
 
 .box-img-title {
-  border-radius: 0.5%;
   margin-bottom: 50px;
 }
 
 .img-title {
-  width: 100%;
+  border-radius: 10px 10px 0 0;
   max-height: 350px;
   object-fit: cover;
-  object-position: 0 100%;
+  object-position: 0 30%;
+  width: 100%;
 }
 
 .box-content_title {
@@ -41,6 +35,25 @@
   width: 100%;
 }
 
+.img-in_post {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%
+}
+
+li {
+  color: #333333;
+}
+
+/* line */
+.line-dash {
+  border: 1px dashed #999999;
+}
+
+/* text */
 .fix-date{
   padding-left: 30px;
 }
@@ -48,8 +61,33 @@
 .txt-main {
   color: #333333;
   text-indent: 10px;
+  margin-top: 0;
 }
 
-li {
+.txt-emp {
+  background-color: #F5F5F5;
+  color: #F76C6C;
+  display: inline;
+  font-weight: 600;
+}
+
+/* Headings */
+h1 {
+  font-size: 30px;
+  color: #F76C6C;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+h4 {
   color: #333333;
+  font-size: 15px;
+  margin-bottom: 5px;
 }

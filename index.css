@@ -43,6 +43,11 @@
 
 .recent_post {
   margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.recent_post:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .box-img-title {
@@ -51,10 +56,15 @@
 }
 
 .img-title {
-  width: 100%;
-  max-height: 350px;
+  border-radius: 10px 10px 0 0;
+  max-height: 200px;
   object-fit: cover;
-  object-position: 0 100%;
+  object-position: 0 30%;
+  width: 100%;
+}
+
+.box-title_date {
+  padding: 0 20px 20px 20px;
 }
 
 .aside {
@@ -64,7 +74,6 @@
 }
 
 /* Text style */
-
 #profile h1 {
   margin-bottom: 0;
 }

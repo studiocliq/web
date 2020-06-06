@@ -15,14 +15,10 @@ ul {
 
 .card {
   background-color: white;
-  border-radius: 1%;
+  border-radius: 10px;
   box-shadow: 1px 1px 1px #AAAAAA;
   padding: 20px 20px;
   transition: 0.3s;
-}
-
-.recent_post:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .section {
@@ -96,7 +92,7 @@ footer {
 /* Contatiner part */
 #container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0 20px;
   margin-bottom: 20px;
 }
@@ -124,6 +120,10 @@ footer {
 
 .txt-pink {
   color: #F76C6C;
+}
+
+.txt-largest {
+  font-size: 30px;
 }
 
 .txt-large {
